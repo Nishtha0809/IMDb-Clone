@@ -1,12 +1,45 @@
-# React + Vite
+🎬 IMDb Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive IMDb Clone built using React.js, designed to mimic the functionality of the Internet Movie Database. The application allows users to browse popular movies, view movie details, and manage a personalized watchlist.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🔍 Browse trending and top-rated movies
+* 🎥 View detailed information (poster, rating, release date, overview)
+* ⭐ Add or remove movies from your Watchlist
+* 📄 Paginated movie listings
+* 🎨 Responsive design with clean UI
 
-## Expanding the ESLint configuration
+🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend**: React.js, Tailwind CSS
+* **State Management**: React Hooks (`useState`, `useEffect`)
+* **API**: [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api)
+* **Styling**: Tailwind CSS
+
+📁 Folder Structure
+
+```
+/src
+  /components
+    - MovieCard.js
+    - WatchList.js
+    - Pagination.js
+  - App.js
+  - Movies.js
+```
+
+📦 Setup Instructions
+
+1. Clone the repository
+   `git clone https://github.com/your-username/imdb-clone.git`
+
+2. Install dependencies
+   `npm install`
+
+3. Add your **TMDb API key** in a `.env` file
+   `REACT_APP_TMDB_API_KEY=your_api_key_here`
+
+4. Run the project
+   `npm start`
+
